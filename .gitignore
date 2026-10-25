@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Raw data
+/data/*.csv
+/data/*.xlsx
+!/data/README.md
+
+# Generated models and patient-level outputs
+/artifacts/*
+!/artifacts/.gitkeep
+/results/*
+!/results/.gitkeep
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
